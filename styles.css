@@ -1,3 +1,6 @@
+/* azul: #295ba7 */
+/* verde: #78b454 */
+
 * {
   margin: 0;
   padding: 0;
@@ -9,10 +12,11 @@ body {
 
 header {
   background: rgb(66,119,140);
-  background: linear-gradient(180deg, rgba(66,119,140,1) 0%, rgba(99,156,106,1) 100%);
+  
   height: 50px;
   margin: auto;
   padding: 0 20px;
+  background: url('./img/bg-repeat.png'), linear-gradient(178deg, rgba(41,91,167,1) 0%, rgba(120,180,84,1) 100%);
 }
 
 .menu img {
@@ -22,7 +26,7 @@ header {
 .menu {
   display: flex;
   align-items: center;
-  width: 400px;
+  width: 620px;
   height: 50px;
   justify-content: space-between;
 }
@@ -49,6 +53,44 @@ header {
 
 .menu ul li a {
   font-weight: bold;
+}
+
+.menu input {
+  background-color: #356b6578;
+  border: none;
+  height: 25px;
+  border-radius: 5px;
+  width: 400px;
+  caret-color: white;
+  padding-left: 5px;
+  box-sizing: border-box;
+}
+
+.menu input::placeholder {
+  color: white;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.barra-pesquisa {
+  position: relative;
+}
+
+.barra-pesquisa span {
+  color: white;
+  position: absolute;
+  right: 10px;
+  line-height: 25px;
+  cursor: pointer;
+}
+
+.barra-pesquisa input:focus {
+  border: solid 2px #78b454;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.barra-pesquisa input:focus::placeholder {
+  color: transparent;
 }
 
 header > div {

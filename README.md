@@ -1,7 +1,7 @@
 # Vem Ser DBC 🚀
 📚 Atividade 02 do módulo de HTML e CSS - Front-end proposta pelo instrutor João Alvares.  
   
-Dev:
+Dev:  
 👩‍💻 [Mayra Amaral](https://github.com/mayraamaral)    
   
 O código encontra-se neste repositório.  
