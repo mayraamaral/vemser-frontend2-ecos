@@ -155,7 +155,7 @@ hr {
   height: 1px;
   border: none;
   background-color: gray;
-  opacity: 0.6;
+  opacity: 0.4;
 }
 
 .noticias > h2, .sistemas > h2 {
@@ -301,9 +301,41 @@ aside {
   color: #33A76F;
 }
 
+.card:hover span, .card:hover p{
+  color: white;
+}
+
 .card p {
   font-size: 13px;
   color: #33A76F;
   font-weight: bold;
   margin-top: 5px;
+}
+
+.aniversariante {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+}
+
+.aniversariante img {
+  margin: 0 10px;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+}
+
+.aniversario-data {
+  display: flex;
+  color: gray;
+}
+
+.aniversario-data span {
+  margin-right: 5px;
+}
+
+.aniversariante-text p:first-child {
+  font-weight: bold;
+  margin-bottom: 5px;
 }
