@@ -9,12 +9,12 @@ main {
 }
 
 header {
-  width: 100%;
+  width: 100vw;
   height: 150px;
 }
 
 .menu {
-  width: 100%;
+  width: 100vw;
   justify-content: space-around;
 }
 
