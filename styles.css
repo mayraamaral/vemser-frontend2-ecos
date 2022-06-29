@@ -75,7 +75,9 @@ header {
   position: relative;
 }
 
-.barra-pesquisa span {
+.barra-pesquisa button {
+  background-color: transparent;
+  border: none;
   color: white;
   position: absolute;
   right: 10px;
