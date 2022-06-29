@@ -8,6 +8,7 @@
 
 body {
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #EFF3F8;
 }
 
 header {
@@ -38,6 +39,7 @@ header {
   width: 80px;
   justify-content: space-between;
   cursor: pointer;
+  box-sizing: border-box;
 }
 
 .menu ul li {
@@ -64,6 +66,12 @@ header {
   caret-color: white;
   padding-left: 5px;
   box-sizing: border-box;
+}
+
+.menu ul:hover {
+  background-color: #356b6578;
+  height: 40px;
+  width: 80px;
 }
 
 .menu input::placeholder {
@@ -128,4 +136,135 @@ nav ul img {
 nav ul li:last-child {
   display: flex;
   align-items: center;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.noticias {
+  background-color: #F8F9FA;
+  width: 675px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+hr {
+  height: 1px;
+  border: none;
+  background-color: gray;
+  opacity: 0.6;
+}
+
+.noticias > h2, .sistemas > h2 {
+  text-transform: uppercase;
+}
+
+.noticias > h2, .sistemas > h2, .aniversarios > h2 {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.noticias > h2 {
+  margin: 15px 0 15px 15px;
+}
+
+.sistemas > h2, .aniversarios > h2 {
+  margin: 0 0 15px 15px;
+  padding-top: 15px;
+}
+
+
+aside {
+  width: 450px;
+  margin-left: 20px;
+}
+
+.sistemas {
+  background-color: #F8F9FA;
+  width: 450px;
+  height: 375px;
+  border-radius: 5px;
+}
+
+.aniversarios {
+  background-color: #F8F9FA;
+  width: 450px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  margin-top: 10px;
+}
+
+.post {
+  margin: 15px;
+  display: flex;
+  height: 200px;
+  width: 643px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 4px rgb(0 0 0 / 10%);
+  background-color: white;
+}
+
+.post > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.post img {
+  width: 200px;
+  height: 200px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.post-text h2 {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.post-text p {
+  text-align: justify;
+  font-size: 14px;
+}
+
+.post-text h2, .post-text p, .data-e-likes > p {
+  margin: 10px;
+}
+
+.data-e-likes {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.data-e-likes > div {
+  display: flex;
+  align-items: center;
+  padding-right: 5px;
+}
+
+.data-e-likes > div > span:hover {
+  cursor: pointer;
+}
+
+.like {
+  color: red;
+}
+
+.comment, .views {
+  color: gray;
+}
+
+.data-e-likes p {
+  font-size: 14px;
+  color: gray;
+}
+
+.data-e-likes > div > p, .data-e-likes > div > span {
+  margin-right: 5px;
 }

@@ -13,6 +13,6 @@ Para visualizar o live demo, o link é: [https://vemser-frontend2.vercel.app](ht
 Label: ✅ is for done and ❌ is to be done.  
   
 ✅ Header  
-❌ Seção Notícias  
+✅ Seção Notícias  
 ❌ Seção Sistemas e Processos  
 ❌ Seção Últimos Aniversários  
