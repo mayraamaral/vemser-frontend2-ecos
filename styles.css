@@ -13,11 +13,14 @@ body {
 
 header {
   background: rgb(66,119,140);
-  
   height: 50px;
   margin: auto;
   padding: 0 20px;
   background: url('./img/bg-repeat.png'), linear-gradient(178deg, rgba(41,91,167,1) 0%, rgba(120,180,84,1) 100%);
+}
+
+header > div {
+  display: flex;
 }
 
 .menu img {
@@ -27,9 +30,15 @@ header {
 .menu {
   display: flex;
   align-items: center;
-  width: 620px;
+  width: 200px;
   height: 50px;
-  justify-content: space-between;
+}
+
+.barra-pesquisa {
+  display: flex;
+  height: 50px;
+  align-items: center;
+  width: 400px;
 }
 
 .menu ul {
@@ -40,6 +49,13 @@ header {
   justify-content: space-between;
   cursor: pointer;
   box-sizing: border-box;
+  margin-left: 20px;
+}
+
+.menu ul:hover {
+  background-color: #356b6578;
+  height: 40px;
+  width: 80px;
 }
 
 .menu ul li {
@@ -57,7 +73,7 @@ header {
   font-weight: bold;
 }
 
-.menu input {
+.barra-pesquisa input {
   background-color: #356b6578;
   border: none;
   height: 25px;
@@ -68,19 +84,14 @@ header {
   box-sizing: border-box;
 }
 
-.menu ul:hover {
-  background-color: #356b6578;
-  height: 40px;
-  width: 80px;
-}
-
-.menu input::placeholder {
+.barra-pesquisa input::placeholder {
   color: white;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .barra-pesquisa {
   position: relative;
+  margin-left: 20px;
 }
 
 .barra-pesquisa button {
@@ -103,13 +114,12 @@ header {
   color: transparent;
 }
 
-header > div {
-  display: flex;
-  justify-content: space-between;
-}
-
 nav ul li {
   list-style-type: none;
+}
+
+nav {
+  margin: 0 0 0 auto;
 }
 
 nav ul {
