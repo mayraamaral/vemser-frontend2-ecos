@@ -268,3 +268,42 @@ aside {
 .data-e-likes > div > p, .data-e-likes > div > span {
   margin-right: 5px;
 }
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  height: 80%;
+  padding: 0 20px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 80px;
+  box-shadow: 0px 2px 4px rgb(0 0 0 / 10%);
+  border-radius: 5%;
+}
+
+.card:hover {
+  background: rgb(41,91,167);
+  background: linear-gradient(270deg, rgba(41,91,167,1) 0%, rgba(120,180,84,1) 100%);
+  cursor: pointer;
+  color: white;
+}
+
+.card span {
+  font-size: 26px;
+  color: #33A76F;
+}
+
+.card p {
+  font-size: 13px;
+  color: #33A76F;
+  font-weight: bold;
+  margin-top: 5px;
+}
