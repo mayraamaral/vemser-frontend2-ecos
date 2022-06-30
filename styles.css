@@ -339,6 +339,7 @@ aside {
 .aniversario-data {
   display: flex;
   color: gray;
+  align-items: center;
 }
 
 .aniversario-data span {
