@@ -16,4 +16,4 @@ Label: ✅ is for done and ❌ is to be done.
 ✅ Seção Notícias  
 ✅ Seção Sistemas e Processos  
 ✅ Seção Últimos Aniversários  
-❌ Versão mobile  
+✅ Versão mobile  
