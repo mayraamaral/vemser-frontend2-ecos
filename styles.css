@@ -159,6 +159,7 @@ main {
   width: 675px;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
+  box-shadow: 0px 2px 4px rgb(0 0 0 / 10%);
 }
 
 hr {
@@ -197,6 +198,7 @@ aside {
   width: 450px;
   height: 375px;
   border-radius: 5px;
+  box-shadow: 0px 2px 4px rgb(0 0 0 / 10%);
 }
 
 .aniversarios {
@@ -205,6 +207,7 @@ aside {
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   margin-top: 10px;
+  box-shadow: 0px 2px 4px rgb(0 0 0 / 10%);
 }
 
 .post {
